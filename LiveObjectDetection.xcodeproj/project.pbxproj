@@ -12,6 +12,8 @@
 		3A438C7B20FDED56003ED1D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A438C7920FDED56003ED1D0 /* Main.storyboard */; };
 		3A438C7D20FDED58003ED1D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A438C7C20FDED58003ED1D0 /* Assets.xcassets */; };
 		3A438C8020FDED58003ED1D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A438C7E20FDED58003ED1D0 /* LaunchScreen.storyboard */; };
+		3A438C8820FDEE9B003ED1D0 /* sessionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A438C8720FDEE9B003ED1D0 /* sessionModel.swift */; };
+		3A438C8A20FDF44E003ED1D0 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3A438C8920FDF44E003ED1D0 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		3A438C7C20FDED58003ED1D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A438C7F20FDED58003ED1D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A438C8120FDED58003ED1D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A438C8720FDEE9B003ED1D0 /* sessionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sessionModel.swift; sourceTree = "<group>"; };
+		3A438C8920FDF44E003ED1D0 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		3A438C7420FDED56003ED1D0 /* LiveObjectDetection */ = {
 			isa = PBXGroup;
 			children = (
+				3A438C8920FDF44E003ED1D0 /* Inceptionv3.mlmodel */,
+				3A438C8720FDEE9B003ED1D0 /* sessionModel.swift */,
 				3A438C7520FDED56003ED1D0 /* AppDelegate.swift */,
 				3A438C7720FDED56003ED1D0 /* ViewController.swift */,
 				3A438C7920FDED56003ED1D0 /* Main.storyboard */,
@@ -135,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A438C8820FDEE9B003ED1D0 /* sessionModel.swift in Sources */,
+				3A438C8A20FDF44E003ED1D0 /* Inceptionv3.mlmodel in Sources */,
 				3A438C7820FDED56003ED1D0 /* ViewController.swift in Sources */,
 				3A438C7620FDED56003ED1D0 /* AppDelegate.swift in Sources */,
 			);
@@ -281,6 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D9DTL46TFP;
 				INFOPLIST_FILE = LiveObjectDetection/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,6 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D9DTL46TFP;
 				INFOPLIST_FILE = LiveObjectDetection/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
